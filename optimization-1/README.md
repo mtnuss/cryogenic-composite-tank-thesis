@@ -15,7 +15,7 @@ Baseline design with initial assumptions and basic manufacturing constraints. Op
 
 - `angles_opti.hm` – HyperMesh model containing geometry, mesh, ply definitions, materials, and load cases.
 - `angles_opti_newvals.fem` – OptiStruct input file for solver execution (linear static analysis). note: *_newvals was later named to compare these results with a prior model that was not quite right
-- `angles_opti_newvals_s1.h3d` – HyperView-compatible results file for stress, displacement, and failure criteria visualization.
+- `angles_opti_newvals_des.h3d` – HyperView-compatible results file for stress, displacement, and failure criteria visualization.
 - `angles_opti_newvals.out` – Text output log showing run status, convergence behavior, and summary of constraint checks.
 - `images/` – Screenshots of the mesh, boundary conditions, and post-processed results (e.g., stress plots, displacement contours).
 
