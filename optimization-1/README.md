@@ -9,7 +9,7 @@ Baseline design with initial assumptions and basic manufacturing constraints. Op
 - Validate structural response under cryogenic pressure and multi-axial loading conditions using linear static FEA.
 - Identify areas of stress concentration, overdesign, and key failure modes.
 - Include ply orientations from 0 to +/- 90 degrees in 5-degree increments with SMEAR set to ON to maintain stacking-sequence independence.
-- Analyze outputs to determine which iroentations have potential for achieving as much strength as necessary with as little material as possible. 
+- Analyze outputs to determine which orientations have potential for achieving as much strength as necessary with as little material as possible. 
 
 ## Files
 
