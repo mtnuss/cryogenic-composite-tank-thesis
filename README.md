@@ -27,14 +27,96 @@ cryogenic-composite-tank-thesis/
 │   │   └── displacement_plot.png
 │   └── README.md
 ├── optimization-3/
-│   ├── model.hm
-│   ├── run.fem
-│   ├── results.h3d
-│   ├── output.out
-│   ├── images/
-│   │   ├── mesh.png
-│   │   └── buckling_mode.png
-│   └── README.md
+│   ├── design-a/
+│   │   ├── maxstrain/
+│   │   │   ├── model.hm
+│   │   │   ├── run.fem
+│   │   │   ├── results.h3d
+│   │   │   ├── output.out
+│   │   │   ├── images/
+│   │   │   │   ├── mesh.png
+│   │   │   │   └── strain_plot.png
+│   │   │   └── README.md
+│   │   ├── stress/
+│   │   │   ├── model.hm
+│   │   │   ├── run.fem
+│   │   │   ├── results.h3d
+│   │   │   ├── output.out
+│   │   │   ├── images/
+│   │   │   │   ├── mesh.png
+│   │   │   │   └── stress_plot.png
+│   │   │   └── README.md
+│   │   ├── tsaiwu/
+│   │   │   ├── model.hm
+│   │   │   ├── run.fem
+│   │   │   ├── results.h3d
+│   │   │   ├── output.out
+│   │   │   ├── images/
+│   │   │   │   ├── mesh.png
+│   │   │   │   └── tsaiwu_plot.png
+│   │   │   └── README.md
+│
+│   ├── design-b/
+│   │   ├── maxstrain/
+│   │   │   ├── model.hm
+│   │   │   ├── run.fem
+│   │   │   ├── results.h3d
+│   │   │   ├── output.out
+│   │   │   ├── images/
+│   │   │   │   ├── mesh.png
+│   │   │   │   └── strain_plot.png
+│   │   │   └── README.md
+│   │   ├── stress/
+│   │   │   ├── model.hm
+│   │   │   ├── run.fem
+│   │   │   ├── results.h3d
+│   │   │   ├── output.out
+│   │   │   ├── images/
+│   │   │   │   ├── mesh.png
+│   │   │   │   └── stress_plot.png
+│   │   │   └── README.md
+│   │   ├── tsaiwu/
+│   │   │   ├── model.hm
+│   │   │   ├── run.fem
+│   │   │   ├── results.h3d
+│   │   │   ├── output.out
+│   │   │   ├── images/
+│   │   │   │   ├── mesh.png
+│   │   │   │   └── tsaiwu_plot.png
+│   │   │   └── README.md
+│
+│   ├── design-c/
+│   │   ├── maxstrain/
+│   │   │   ├── model.hm
+│   │   │   ├── run.fem
+│   │   │   ├── results.h3d
+│   │   │   ├── output.out
+│   │   │   ├── images/
+│   │   │   │   ├── mesh.png
+│   │   │   │   └── strain_plot.png
+│   │   │   └── README.md
+│   │   ├── stress/
+│   │   │   ├── model.hm
+│   │   │   ├── run.fem
+│   │   │   ├── results.h3d
+│   │   │   ├── output.out
+│   │   │   ├── images/
+│   │   │   │   ├── mesh.png
+│   │   │   │   └── stress_plot.png
+│   │   │   └── README.md
+│   │   ├── tsaiwu/
+│   │   │   ├── model.hm
+│   │   │   ├── run.fem
+│   │   │   ├── results.h3d
+│   │   │   ├── output.out
+│   │   │   ├── images/
+│   │   │   │   ├── mesh.png
+│   │   │   │   └── tsaiwu_plot.png
+│   │   │   └── README.md
+│
+│   └── README.md   # Summary of optimization-3 iteration across all designs and methods
+│
+├── README.md       # Main project overview
 ├── README.md
 ```
 
