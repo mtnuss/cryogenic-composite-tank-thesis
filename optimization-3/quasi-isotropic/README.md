@@ -1,6 +1,8 @@
 # Quasi-Isotropic Optimization
 
 This folder contains simulations for the quasi-isotropic layup of the cryogenic composite tank. 
+Subfolders include:
+
 - **maxstrain/** – Maximum strain criterion
 - **stress/** – Stress-based evaluation
 - **tsaiwu/** – Tsai-Wu composite failure criterion
