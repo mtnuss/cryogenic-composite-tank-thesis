@@ -110,4 +110,5 @@ Each folder contains full HyperMesh model files, solver decks, post-processed re
 ```
 
 Summary
+
 This final optimization phase resulted in understanding just how much of each ply orientation in their chosen shapes was needed for each case. This resulted in multiple final designs which were analyzed using FEM and compared to determine final masses and apoproximate manufacturing times using CNC machining software VCP/VCS by Vericut. h3d files are not included, as github does not support such large files. But these are obtained when you run the simulations if you are truly curious.
