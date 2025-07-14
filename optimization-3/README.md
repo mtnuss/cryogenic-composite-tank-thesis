@@ -2,7 +2,7 @@
 
 This directory contains the final and most advanced stage of structural optimization for a composite cryogenic pressure vessel, as presented in my M.S. thesis:  
 **“Optimizing AFP Manufactured Composite-Based Cryogenic Tanks for Space-Based Missions.”**  
-This phase implements manufacturability-aware modeling, advanced failure criteria, and multiple geometric variants to assess structural and mass performance trade-offs under real-world constraints.
+This phase implements manufacturability-aware modeling, advanced failure criteria, and multiple geometric variants to assess structural and mass performance trade-offs under real-world constraints given what was learned in the previous two optimization steps.
 
 ## Overview
 
@@ -32,83 +32,67 @@ Each folder contains full HyperMesh model files, solver decks, post-processed re
 ├── optimization-3/
 │   ├── 0-band/
 │   │   ├── maxstrain/
-│   │   │   ├── model.hm
+│   │   |   ├── model.hm
 │   │   │   ├── run.fem
 │   │   │   ├── output.out
-│   │   │   ├── images/
-│   │   │   │   ├── mesh.png
-│   │   │   │   └── strain_plot.png
 │   │   │   └── README.md
 │   │   ├── stress/
 │   │   │   ├── model.hm
 │   │   │   ├── run.fem
 │   │   │   ├── output.out
-│   │   │   ├── images/
-│   │   │   │   ├── mesh.png
-│   │   │   │   └── stress_plot.png
 │   │   │   └── README.md
 │   │   ├── tsaiwu/
 │   │   │   ├── model.hm
 │   │   │   ├── run.fem
 │   │   │   ├── output.out
-│   │   │   ├── images/
-│   │   │   │   ├── mesh.png
-│   │   │   │   └── tsaiwu_plot.png
 │   │   │   └── README.md
-│
+|   |   ├── images
+|   |   |   ├── stresses.png
+│   │   │   └── failureindices.png
+│   |   └── README.md
 │   ├── quasi-isotropic/
 │   │   ├── maxstrain/
-│   │   │   ├── model.hm
+│   │   |   ├── model.hm
 │   │   │   ├── run.fem
 │   │   │   ├── output.out
-│   │   │   ├── images/
-│   │   │   │   ├── mesh.png
-│   │   │   │   └── strain_plot.png
 │   │   │   └── README.md
 │   │   ├── stress/
 │   │   │   ├── model.hm
 │   │   │   ├── run.fem
 │   │   │   ├── output.out
-│   │   │   ├── images/
-│   │   │   │   ├── mesh.png
-│   │   │   │   └── stress_plot.png
 │   │   │   └── README.md
 │   │   ├── tsaiwu/
 │   │   │   ├── model.hm
 │   │   │   ├── run.fem
 │   │   │   ├── output.out
-│   │   │   ├── images/
-│   │   │   │   ├── mesh.png
-│   │   │   │   └── tsaiwu_plot.png
 │   │   │   └── README.md
-│
+|   |   ├── images
+|   |   |   ├── stresses.png
+│   │   │   └── failureindices.png
+│   |   └── README.md
 │   ├── traditional/
 │   │   ├── maxstrain/
-│   │   │   ├── model.hm
+│   │   |   ├── model.hm
 │   │   │   ├── run.fem
 │   │   │   ├── output.out
-│   │   │   ├── images/
-│   │   │   │   ├── mesh.png
-│   │   │   │   └── strain_plot.png
 │   │   │   └── README.md
 │   │   ├── stress/
 │   │   │   ├── model.hm
 │   │   │   ├── run.fem
 │   │   │   ├── output.out
-│   │   │   ├── images/
-│   │   │   │   ├── mesh.png
-│   │   │   │   └── stress_plot.png
 │   │   │   └── README.md
 │   │   ├── tsaiwu/
 │   │   │   ├── model.hm
 │   │   │   ├── run.fem
 │   │   │   ├── output.out
-│   │   │   ├── images/
-│   │   │   │   ├── mesh.png
-│   │   │   │   └── tsaiwu_plot.png
 │   │   │   └── README.md
+|   |   ├── images
+|   |   |   ├── stresses.png
+│   │   │   └── failureindices.png
+│   |   └── README.md
+│   └── README.md
 ```
 
 Summary
 
-This final optimization phase resulted in understanding just how much of each ply orientation in their chosen shapes was needed for each case. This resulted in multiple final designs which were analyzed using FEM and compared to determine final masses and apoproximate manufacturing times using CNC machining software VCP/VCS by Vericut. h3d files are not included, as github does not support such large files. But these are obtained when you run the simulations if you are truly curious.
+This final optimization phase resulted in understanding just how much of each ply orientation in their chosen shapes was needed for each case. This resulted in multiple final designs which were analyzed using FEM and compared to determine final masses and approximate manufacturing times using CNC machining software VCP/VCS by Vericut. h3d files are not included, as github does not support such large files. But these are obtained when you run the simulations if you are truly curious.
