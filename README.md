@@ -89,8 +89,8 @@ cryogenic-composite-tank-thesis/
 │   |   └── README.md
 │   └── README.md   # Summary of optimization-3 iteration across all designs and methods
 ├── benchmark/
-│   ├── design-a/
-│   │   ├── maxstrain/
+│   ├── stresses.png
+|   ├── README.md
 ├── README.md       # Main project overview
 ```
 
