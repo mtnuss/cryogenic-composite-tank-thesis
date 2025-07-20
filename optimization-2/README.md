@@ -11,8 +11,8 @@ This model represents the second design iteration in the structural and manufact
 
 - `widths_opti_patched.hm` – Updated HyperMesh model with only the relevant ply orientations
 - `widths_opti_patched_newvals.fem` – OptiStruct solver deck incorporating updated element sets and control cards
-- - `widths_opti_patched_newvals.out` – Output log file with constraint checks and convergence data
-- `images/` – Mesh quality and shapes snapshots and updated stress/strain plots. Images of the proposed shapes to evaluate are included, with teh actual designs for each approach being shown in `optimization-3`
+- `widths_opti_patched_newvals.out` – Output log file with constraint checks and convergence data
+- `images/` – Mesh quality and shapes snapshots and updated stress/strain plots. Images of the proposed shapes to evaluate are included, with the actual designs for each approach being shown in `optimization-3`
 
 ## Key Improvements
 
