@@ -1,0 +1,453 @@
+ ************************************************************************
+ **                                                                    **
+ **                                                                    **
+ **                     Altair OptiStruct(TM) 2023                     **
+ **                                                                    **
+ **             Advanced Engineering Analysis, Design and              **
+ **        Optimization Software from Altair Engineering, Inc.         **
+ **                                                                    **
+ **   OptiStruct includes an enhanced proprietary version of NASTRAN   **
+ **                                                                    **
+ **                                                                    **
+ **             Windows 10  (Build 9200)  DESKTOP-DDRGMF7              **
+ **           16 CPU:  AMD Ryzen 7 1700 Eight-Core Processor           **
+ **                    22685 MB RAM,  37565 MB swap                    **
+ **                                                                    **
+ ** Build: 1180295uwn33230_Ce64RB6s8UH14M:219807-000  4600400400000000 **
+ ************************************************************************
+ **  COPYRIGHT (C) 1996-2023                 Altair Engineering, Inc.  **
+ ** All Rights Reserved.  Copyright notice does not imply publication. **
+ **         Contains trade secrets of Altair Engineering, Inc.         **
+ ** Decompilation or disassembly of this software strictly prohibited. **
+ ************************************************************************
+ 
+  
+ *** OptiStruct defaults set from:
+   install config file: C:/PROGRA~1/Altair/2023/hwsolvers/optistruct.cfg.
+  
+  
+ NOTE # 9199
+ MSGLMT=STRICT is active, all messages will be printed unless there is
+ a subsequent MSGLMT definition to limit error or warning messages.
+ You can also suppress some less important warning messages by use of
+  MSGLMT=BRIEF or UNREF (in config file or in the input data).
+  
+ 
+ *** See next message about line 150186 from file:
+     widths_opti_patched_newvals.fem
+  "PCOMPP         1                            TSAI"
+  
+ *** WARNING # 1055
+ SB blank or zero on PCOMP data, respective failure calculations
+ will be skipped.
+  
+ 
+ *** See next message about line 150189 from file:
+     widths_opti_patched_newvals.fem
+  "PCOMPP         2                            STRN"
+  
+ *** WARNING # 1055
+ SB blank or zero on PCOMP data, respective failure calculations
+ will be skipped.
+  
+ *** WARNING 1932: PCOMP(G)(P)  ID    2 is not referenced.
+  
+ *** INFORMATION # 2388
+ MATF 1 is referenced by shell properties. Failure criterion TSAI3D
+ will be converted to TSAI.
+  
+ *** INFORMATION # 2388
+ MATF 1 is referenced by shell properties. Failure criterion STRN3D
+ will be converted to STRN.
+  
+  
+ NOTE # 1852
+ AUTOMATIC SCREENING is activated.
+ Use DSCREEN,AUTO,OFF to disable automatic screening.
+  
+ *** INFORMATION # 4805
+ NDIV options on CSTRESS/CSTRAIN/CFAILURE cards are different. 
+ The largest NDIV is considered only.
+  
+ *** INFORMATION # 6362
+ The user-defined MINDIM= 1.0000e-01 on DSIZE card 1 is large
+ compared to the average mesh size = 9.4907e-03.
+ 
+
+************************************************************************
+
+OPTIMIZATION FILE AND PARAMETER INFORMATION :
+---------------------------------------------
+
+  FEM model file               : widths_opti_patched_newvals.fem
+  Output files prefix          : widths_opti_patched_newvals
+  Model read from files:
+ (*1)	    widths_opti_patched_newvals.fem
+
+************************************************************************
+
+ 
+
+************************************************************************
+
+FINITE ELEMENT MODEL DATA INFORMATION :
+---------------------------------------
+
+  Total # of Grids (Structural)        :     70777
+  Total # of Elements                  :     71064
+  Total # of Local Coordinate Systems  :         1
+  Total # of Degrees of Freedom        :    424626
+  (Structural)
+  Total # of Non-zero Stiffness Terms  :  11666199
+
+ 
+  Element Type Information
+  ------------------------
+
+   CQUAD4   Elements   :    70476     
+   CTRIA3   Elements   :      588     
+
+  Load and Boundary Information
+  -----------------------------
+
+   LOAD and TEMP Sets:         1
+   SPC   Sets        :         1
+
+  Material and Property Information
+  ---------------------------------
+
+   PCOMP(G)(P) Cards :         2
+   PSHELL Cards      :         1
+   MAT1   Cards      :         1
+   MAT9ORT Cards     :         1
+   MATF   Cards      :         1
+
+************************************************************************
+
+ 
+
+************************************************************************
+
+OPTIMIZATION PROBLEM PARAMETERS :
+---------------------------------
+
+ Objective Function  : Minimize Compliance
+
+ ------------------
+ Response Summary :
+ ------------------
+
+ Number of volume fraction responses   :          1
+ Number of compliance responses        :          1
+
+   ------------------------
+   Static Subcase Summary :
+   ------------------------
+
+   ----------   --------  -------  --------------------- 
+   Subcase ID    SPC ID   LOAD ID  Preloading Subcase ID
+   ----------   --------  -------  --------------------- 
+        1            1          2
+   ----------   --------  -------  --------------------- 
+
+   ---------------------------
+   Design Parameters Summary :
+   ---------------------------
+
+   Total # of free-sizing design elements          :     65665
+   Total # of free-sizing cards                    :         1
+ 
+   Total Volume of Design Material :   4.2657E-01
+     Total Mass of Design Material :   6.5052E+02
+     Volume of Non-Design Material :   1.6905E-02
+       Mass of Non-Design Material :   1.3271E+02
+
+   Composite Design Elements  :  STACK
+   -------------------------    -------
+                                     1
+ 
+
+   ---------------------------------
+   Optimization Parameters Summary :
+   ---------------------------------
+
+   Initial Material Fraction [0,1] :   0.3000
+   Maximum Number of Iterations    :        80
+ 
+   Convergence Tolerance           :   5.0000E-03
+   Step Size (Free Sizing)         :   0.5000
+ 
+   Checkerboard Control            :   On (1 - Global Averaging)
+
+   Run Type                        :   Free-Sizing Optimization
+
+ ----------------------------------
+ Free-Sizing Optimization Summary :
+ ----------------------------------
+
+ -------- ----------- ----------- ------- ------- -------
+ DSIZE ID   Minimum     Maximum   Pattern Pattern Pattern
+          Member Size Member Size  Repet.  Symm.   Group.
+ -------- ----------- ----------- ------- ------- -------
+        1  0.1000E+00               NONE    NONE    NONE 
+ -------- ----------- ----------- ------- ------- -------
+
+   Restart from previous solution  :   No
+   Run at location                 : C:/Users/mtnuss/Documents/Research_Files/Hyperworks/Tank/2_widths_optimization/
+   Scratch file directory          : C:/Users/mtnuss/Documents/Research_Files/Hyperworks/Tank/2_widths_optimization/
+                                     Free space:   145.180 GB
+   Number of CPU processors        :          1
+
+
+************************************************************************
+
+ 
+
+************************************************************************
+
+MEMORY ESTIMATION INFORMATION :
+-------------------------------
+
+ Solver Type is:  Sparse-Matrix Solver
+                  Direct Method
+ 
+ Static Memory (RAM) Allocated in Preprocessor           :     800 MB
+ MUMPS Solver will Run In-Core with Estimated Memory     :    2004 MB
+ Estimated Total Memory (RAM)                            :    2804 MB
+ 
+ Estimated Memory (RAM) for Out-of-Core Solution         :    1411 MB
+ Estimated Memory (RAM) for In-Core Solution             :    2668 MB
+ (Note: The Minimum Memory Requirement is limited by Stress Module.)         
+ 
+DISK SPACE ESTIMATION INFORMATION :
+-----------------------------------
+
+ Estimated Disk Space for Output Data Files              :     354 MB
+ Estimated Scratch Disk Space for In-Core Solution       :     262 MB
+ Estimated Scratch Disk Space for Out-of-Core Solution   :    1384 MB
+
+************************************************************************
+
+
+BEGINNING OPTIMIZATION SOLUTION ....
+
+
+************************************************************************
+
+OPTIMIZATION HISTORY INFORMATION :
+----------------------------------
+
+  
+ITERATION   0
+  
+ (Scratch disk space usage for starting iteration = 262 MB)
+(Running in-core solution)
+
+Objective Function (Minimize COMPL) =  3.50910E+01
+Maximum Constraint Violation %      =  0.51810E-12
+Design Volume Fraction              =  3.00000E-01   Mass     =  3.27861E+02
+-----------------------------------
+Subcase    Compliance       Epsilon
+-----------------------------------
+      1  3.509099E+01 -3.531352E-13
+-----------------------------------
+ 
+
+Note : Epsilon = Residual Strain Energy Ratio.
+
+---------------------------------------------------------------------------------
+                             RETAINED RESPONSES TABLE
+---------------------------------------------------------------------------------
+Response Type  Response Subcase    Grid/  DOF/ Response      Objective  Viol.
+ User-ID         Label  /RANDPS Element/  Comp   Value       Reference/   %
+                         /Model MID/PID/  /Reg               Constraint
+                        +Frqncy Mode No.                       Bound
+                         /Times
+---------------------------------------------------------------------------------
+       2 COMPL complian       1       --  TOTL 3.509E+01 MIN
+       1 VOLFR volume_f      --       --  TOTL 3.000E-01  <   3.000E-01   0.0 A
+---------------------------------------------------------------------------------
+ 
+  
+ITERATION   1
+
+Objective Function (Minimize COMPL) =  2.87878E+01   % change =       -17.96
+Maximum Constraint Violation %      =  0.37537E-03
+Design Volume Fraction              =  3.00001E-01   Mass     =  3.27862E+02
+-----------------------------------
+Subcase    Compliance       Epsilon
+-----------------------------------
+      1  2.878779E+01 -3.909643E-13
+-----------------------------------
+ 
+
+Note : Epsilon = Residual Strain Energy Ratio.
+
+---------------------------------------------------------------------------------
+                             RETAINED RESPONSES TABLE
+---------------------------------------------------------------------------------
+Response Type  Response Subcase    Grid/  DOF/ Response      Objective  Viol.
+ User-ID         Label  /RANDPS Element/  Comp   Value       Reference/   %
+                         /Model MID/PID/  /Reg               Constraint
+                        +Frqncy Mode No.                       Bound
+                         /Times
+---------------------------------------------------------------------------------
+       2 COMPL complian       1       --  TOTL 2.879E+01 MIN
+       1 VOLFR volume_f      --       --  TOTL 3.000E-01  <   3.000E-01   0.0 A
+---------------------------------------------------------------------------------
+ 
+  
+ITERATION   2
+
+Objective Function (Minimize COMPL) =  2.53059E+01   % change =       -12.09
+Maximum Constraint Violation %      =  0.00000E+00
+Design Volume Fraction              =  2.99999E-01   Mass     =  3.27861E+02
+-----------------------------------
+Subcase    Compliance       Epsilon
+-----------------------------------
+      1  2.530595E+01 -6.345648E-14
+-----------------------------------
+ 
+
+Note : Epsilon = Residual Strain Energy Ratio.
+
+---------------------------------------------------------------------------------
+                             RETAINED RESPONSES TABLE
+---------------------------------------------------------------------------------
+Response Type  Response Subcase    Grid/  DOF/ Response      Objective  Viol.
+ User-ID         Label  /RANDPS Element/  Comp   Value       Reference/   %
+                         /Model MID/PID/  /Reg               Constraint
+                        +Frqncy Mode No.                       Bound
+                         /Times
+---------------------------------------------------------------------------------
+       2 COMPL complian       1       --  TOTL 2.531E+01 MIN
+       1 VOLFR volume_f      --       --  TOTL 3.000E-01  <   3.000E-01   0.0 A
+---------------------------------------------------------------------------------
+ 
+  
+ITERATION   3
+
+Objective Function (Minimize COMPL) =  2.45133E+01   % change =        -3.13
+Maximum Constraint Violation %      =  0.00000E+00
+Design Volume Fraction              =  3.00000E-01   Mass     =  3.27861E+02
+-----------------------------------
+Subcase    Compliance       Epsilon
+-----------------------------------
+      1  2.451334E+01  1.066683E-13
+-----------------------------------
+ 
+
+Note : Epsilon = Residual Strain Energy Ratio.
+
+---------------------------------------------------------------------------------
+                             RETAINED RESPONSES TABLE
+---------------------------------------------------------------------------------
+Response Type  Response Subcase    Grid/  DOF/ Response      Objective  Viol.
+ User-ID         Label  /RANDPS Element/  Comp   Value       Reference/   %
+                         /Model MID/PID/  /Reg               Constraint
+                        +Frqncy Mode No.                       Bound
+                         /Times
+---------------------------------------------------------------------------------
+       2 COMPL complian       1       --  TOTL 2.451E+01 MIN
+       1 VOLFR volume_f      --       --  TOTL 3.000E-01  <   3.000E-01   0.0 A
+---------------------------------------------------------------------------------
+ 
+  
+ITERATION   4
+  the 1st satisfied convergence ratio =  4.0637E-03
+
+Objective Function (Minimize COMPL) =  2.44141E+01   % change =        -0.40
+Maximum Constraint Violation %      =  0.00000E+00
+Design Volume Fraction              =  2.99999E-01   Mass     =  3.27861E+02
+-----------------------------------
+Subcase    Compliance       Epsilon
+-----------------------------------
+      1  2.441413E+01 -1.353324E-13
+-----------------------------------
+ 
+
+Note : Epsilon = Residual Strain Energy Ratio.
+
+---------------------------------------------------------------------------------
+                             RETAINED RESPONSES TABLE
+---------------------------------------------------------------------------------
+Response Type  Response Subcase    Grid/  DOF/ Response      Objective  Viol.
+ User-ID         Label  /RANDPS Element/  Comp   Value       Reference/   %
+                         /Model MID/PID/  /Reg               Constraint
+                        +Frqncy Mode No.                       Bound
+                         /Times
+---------------------------------------------------------------------------------
+       2 COMPL complian       1       --  TOTL 2.441E+01 MIN
+       1 VOLFR volume_f      --       --  TOTL 3.000E-01  <   3.000E-01   0.0 A
+---------------------------------------------------------------------------------
+ 
+  
+ITERATION   5
+  the 2nd satisfied convergence ratio =  1.2100E-03
+
+Objective Function (Minimize COMPL) =  2.43846E+01   % change =        -0.12
+Maximum Constraint Violation %      =  0.00000E+00
+Design Volume Fraction              =  2.99999E-01   Mass     =  3.27861E+02
+-----------------------------------
+Subcase    Compliance       Epsilon
+-----------------------------------
+      1  2.438463E+01 -9.907247E-14
+-----------------------------------
+ 
+
+Note : Epsilon = Residual Strain Energy Ratio.
+
+---------------------------------------------------------------------------------
+                             RETAINED RESPONSES TABLE
+---------------------------------------------------------------------------------
+Response Type  Response Subcase    Grid/  DOF/ Response      Objective  Viol.
+ User-ID         Label  /RANDPS Element/  Comp   Value       Reference/   %
+                         /Model MID/PID/  /Reg               Constraint
+                        +Frqncy Mode No.                       Bound
+                         /Times
+---------------------------------------------------------------------------------
+       2 COMPL complian       1       --  TOTL 2.438E+01 MIN
+       1 VOLFR volume_f      --       --  TOTL 3.000E-01  <   3.000E-01   0.0 A
+---------------------------------------------------------------------------------
+ 
+
+************************************************************************
+  
+ OPTIMIZATION HAS CONVERGED.
+  
+ FEASIBLE DESIGN (ALL CONSTRAINTS SATISFIED).
+  
+
+************************************************************************
+
+RESOURCE USAGE INFORMATION
+--------------------------
+
+ MAXIMUM MEMORY USED                                      2804 MB
+   INCLUDING MEMORY FOR MUMPS                             2004 MB
+   IN ADDITION    321 MB MEMORY WAS ALLOCATED FOR TEMPORARY USE
+ MAXIMUM DISK SPACE USED                                   674 MB
+   INCLUDING DISK SPACE FOR MUMPS                            0 MB
+
+************************************************************************
+
+
+************************************************************************
+
+COMPUTE TIME INFORMATION
+------------------------
+
+ EXECUTION STARTED                         Thu Apr 25 09:57:18 2024    
+ EXECUTION COMPLETED                       Thu Apr 25 10:00:30 2024    
+ ELAPSED TIME                                         00:03:11
+ CPU TIME                                             00:03:10
+
+************************************************************************
+
+  
+                        ***** END OF REPORT *****
+  
+ For OptiStruct Community Forum, go to the URL:
+ http://www.altair.com/optistruct-community
+ For Altair Community Knowledge Base, go to the URL:
+ http://www.altair.com/knowledge
