@@ -2,7 +2,7 @@
 
 This repository contains structural optimization models developed during my M.S. thesis at the University of Washington, titled, "Optimizing AFP Manufactured Composite-Based Cryogenic Tanks for Space-Based Missions”. The project focused on the design and performance optimization of a carbon fiber composite cryogenic pressure vessel for spacecraft propulsion systems.
 
-The work includes mesh generation, material and boundary condition setup, solver input decks, and results visualizations. Each optimization iteration represents a distinct design phase, incorporating lessons learned and progressively improving manufacturability, performance, and structural efficiency.
+The work includes mesh generation, material and boundary condition setup, solver input decks, and results visualizations. Each optimization iteration represents a distinct design phase, incorporating lessons learned and progressively improving manufacturability, performance, and structural efficiency. The "model" folder holds an image of the final tank dimensions used throughout the entire project as well as information in the README.md about assumptions used in the models such as FOS, material, BCs, thermal constraints, etc.
 
 ## Repository Structure
 
