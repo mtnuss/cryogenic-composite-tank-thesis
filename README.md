@@ -102,11 +102,11 @@ cryogenic-composite-tank-thesis/
 - **Software Requirements:**  
   These models are built for use with Altair HyperWorks 2022.1 or later.
   - Open `.hm` files in **HyperMesh**
-  - View `.h3d` files in **HyperView**
+  - View `.out` files in any plain text editor such as notepad
   - Run `.fem` files in **OptiStruct** if solver access is available
 
 - **Images Folder:**  
-  Each optimization folder includes a set of `.png` images that provide a quick look at the mesh quality, boundary conditions, and result plots (stresses and failure indices).
+  Each optimization folder includes a set of `.png` images that provide a quick look at the result plots (stresses and failure indices) plus any relevant image for each optimization.
 
 ## Project Background
 
