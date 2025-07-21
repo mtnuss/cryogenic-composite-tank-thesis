@@ -91,6 +91,9 @@ cryogenic-composite-tank-thesis/
 ├── benchmark/
 │   ├── stresses.png
 |   ├── README.md
+├── model/
+│   ├── tank.png
+|   ├── README.md  # Summary of the model and assumptions made
 ├── README.md       # Main project overview
 ```
 
