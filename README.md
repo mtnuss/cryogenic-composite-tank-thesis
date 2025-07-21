@@ -11,7 +11,6 @@ cryogenic-composite-tank-thesis/
 ├── optimization-1/
 │   ├── model.hm
 │   ├── run.fem
-│   ├── results.h3d
 │   ├── output.out
 │   ├── images/
 │   │   ├── mesh.png
@@ -20,7 +19,6 @@ cryogenic-composite-tank-thesis/
 ├── optimization-2/
 │   ├── model.hm
 │   ├── run.fem
-│   ├── results.h3d
 │   ├── output.out
 │   ├── images/
 │   │   ├── mesh.png
